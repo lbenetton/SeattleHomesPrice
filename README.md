@@ -1,7 +1,22 @@
 ![Screenshot](BenettonIO.png)
 
-# covid19us
- Repository for the Hackmakers hackathon predictive algorithm challenge.
+# Goals
+In the previous case, we learned how linear regression can be a powerful tool to understand the behavior of a variable of interest as being explained by other variables in our dataset. However, in many real instances, our data may not meet basic assumptions that one needs for a linear regression model to be suitable. In cases where linear regression is not *directly* applicable in these scenarios, we need to figure out how to go around this problem.
+
+In this case, you will learn:
+
+1. How to select and use appropriate variable transformations to correct our data such that it becomes applicable for linear regression
+2. How to decide whether the addition of predictor variables actually benefit the model or create overfitting
+3. How to further extend the applicability of linear models by taking into account non-linear interactions that can exist between the predictor variables
+
+# Introduction
+Business Context. You have been hired as a data scientist by a large real estate company in their Seattle office. Your job is to assist Seattle residents willing to sell their home with determining an optimal price to sell their property at in order to maximize their proceeds while still being able to find willing buyers. To do this, the firm would like you to build a pricing model for Seattle real estate, in order to maximize the probability of helping residents close sales (and thus maximizing commissions for the firm).
+
+Business Problem. Your task is to build a model that uses past sales data in Seattle to recommend an optimal sell price for any particular property.
+
+Analytical Context. The provided dataset was retrieved from Kaggle (https://www.kaggle.com/harlfoxem/housesalesprediction) and includes sales prices of houses in the state of Washington (King county, where Seattle is located) between May 2014 and May 2015. As we have learned, the primary tool to predict a response variable is the multiple regression model. However, sometimes the assumptions of a linear model are not met by our data. We will learn a set of strategies to mitigate some common issues that appear during regression analysis.
+
+The case is structured as follows: you wil (1) conduct basic EDA of some of the variables to determine that standard linear regression is not sufficient; (2) learn about variable transformations and use these to improve the initial model; and finally (3) learn how to incorporate interaction effects (which are themselves a form of variable transformation involving two or more variables) into our model.
 
 Project Organization
 ------------
